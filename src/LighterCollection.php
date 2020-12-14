@@ -1,7 +1,7 @@
 <?php
-namespace Saverty\Lighter;
+namespace Avertys\Lighter;
 
-use Saverty\Lighter\Lighter;
+use Avertys\Lighter\Lighter;
 
 class LighterCollection{
 

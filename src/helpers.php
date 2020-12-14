@@ -1,8 +1,8 @@
 <?php
 
-use Saverty\Lighter\Lighter;
-use Saverty\Lighter\LighterArray;
-use Saverty\Lighter\LighterCollection;
+use Avertys\Lighter\Lighter;
+use Avertys\Lighter\LighterArray;
+use Avertys\Lighter\LighterCollection;
 
 if (! function_exists('lighter')) {
     function lighter($entity){

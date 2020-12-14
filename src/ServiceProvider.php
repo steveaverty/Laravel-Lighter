@@ -1,4 +1,4 @@
-<?php namespace Saverty\Lighter;
+<?php namespace Avertys\Lighter;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 include_once('helpers.php');

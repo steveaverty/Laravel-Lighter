@@ -1,5 +1,5 @@
 <?php
-namespace Saverty\Lighter;
+namespace Avertys\Lighter;
 
 
 

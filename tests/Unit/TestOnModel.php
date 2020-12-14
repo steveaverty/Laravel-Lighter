@@ -1,10 +1,10 @@
 <?php
 
-namespace  Saverty\Lighter\Tests\Unit;
+namespace  Avertys\Lighter\Tests\Unit;
 
 use Illuminate\Http\Request;
 use PHPUnit\Framework\TestCase;
-use Saverty\Lighter\LighterTrait;
+use Avertys\Lighter\LighterTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class FakeObjectWithAppends extends Model
