@@ -20,7 +20,7 @@ composer require "avertys/lighter"
 
 ### On model
 
-To use lighter on your model you have to add Saverty\Lighter\LighterTrait to your model
+To use lighter on your model you have to add Avertys\Lighter\LighterTrait to your model
 
 ```php
 class User extends Model
@@ -31,7 +31,7 @@ class User extends Model
 }
 ```
 
-Then you just have to write the folling code. In this example, accessors are not calculated. 
+Then, you just have to write the followinf code. In this example, accessors are not calculated. 
 ```php
 $user = User::find(1);
 
@@ -75,6 +75,30 @@ $user = User::find(1);
 
 return response()->json(
     lighter($user)->keep(['name', 'address']);
+, 200);
+
+/*
+{
+    "name" : "Steve",
+    "age" : "28" 
+},
+{
+    "name" : "John",
+    "age" : "35" 
+},
+*/
+
+```
+
+Using the request : Let your client request what he needs.
+
+In the params, add as _keep parameter `http://localhost/users?_keep["name"]` . 
+
+```php
+$user = User::find(1);
+
+return response()->json(
+    lighter($user)->keep();
 , 200);
 
 /*
