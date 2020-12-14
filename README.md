@@ -13,7 +13,7 @@ Lighter is a package htaht help you improve performances of your request. You ca
 In order to install Lighter, just use compose:
 
 ```bash
-composer require "saverty/lighter"
+composer require "avertys/lighter"
 ```
 
 ## How to use Lighter
