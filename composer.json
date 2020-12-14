@@ -1,8 +1,8 @@
 {
   "name": "avertys/lighter",
-  "description": "Get lighter request",
+  "description": "Make your requests lighter",
   "keywords": [],
-  "homepage": "http://github.com",
+  "homepage": "https://github.com/steveaverty/Laravel-Lighter",
   "license": "MIT",
   "authors": [
     {
